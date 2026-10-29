@@ -83,3 +83,9 @@ figure img {
   color: #6c757d;
   font-style: italic;
 }
+/* Портрет нужного размера */
+div.author > img {
+  width: 160px !important;
+  height: 160px !important;
+  max-width: none !important;
+}
