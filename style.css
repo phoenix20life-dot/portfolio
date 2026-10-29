@@ -40,8 +40,11 @@ img {
 .photo,
 .content img,
 figure img {
-  width: 70%;
-  max-width: 640px;
+ .photo,
+.content img,
+figure img {
+  width: 50%;
+  max-width: 460px;
 }
 .gallery img {
   width: 70%;
