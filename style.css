@@ -85,7 +85,7 @@ figure img {
 }
 /* Портрет нужного размера */
 div.author > img {
-  width: 160px !important;
-  height: 160px !important;
+  width: 130px !important;
+  height: 130px !important;
   max-width: none !important;
 }
