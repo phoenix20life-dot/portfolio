@@ -1,0 +1,29 @@
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI',Georgia,serif;background:#f4f9f8;color:#2c3e3d;line-height:1.75}
+header{background:#2a9d8f;color:#fff;padding:32px 24px 20px;text-align:center}
+header h1{font-size:2em;margin-bottom:6px}
+header .motto{font-style:italic;opacity:.95}
+nav{background:#1f7d72;display:flex;flex-wrap:wrap;justify-content:center;gap:4px;padding:10px}
+nav a{color:#fff;text-decoration:none;padding:8px 16px;border-radius:20px;font-size:.95em}
+nav a:hover{background:#17655c}
+nav a.active{background:#fff;color:#1f7d72;font-weight:600}
+main{max-width:840px;margin:0 auto;padding:40px 24px}
+h2{color:#1f7d72;font-size:1.9em;margin-bottom:6px}
+.subtitle{color:#5a7a77;font-style:italic;margin-bottom:28px}
+p{margin-bottom:16px}
+blockquote{background:#eaf6f4;border-left:5px solid #2a9d8f;padding:16px 20px;margin:22px 0;border-radius:8px;font-style:italic}
+.micro{background:#fdf0e6;border-left:5px solid #e76f51;padding:16px 20px;margin:22px 0;border-radius:8px}
+.micro b{color:#c25432}
+ul.game{list-style:none;margin:18px 0}
+ul.game li{background:#fff;margin:10px 0;padding:12px 16px;border-radius:10px;box-shadow:0 1px 4px rgba(0,0,0,.08)}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin:24px 0}
+.gallery img{width:100%;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,.15);display:block}
+.gallery figcaption{font-size:.85em;color:#5a7a77;text-align:center;margin-top:6px}
+.up{display:inline-block;margin:28px 12px 10px 0;color:#2a9d8f;text-decoration:none;font-weight:600}
+footer{background:#2c3e3d;color:#e8f3f1;text-align:center;padding:24px;margin-top:40px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin:30px 0}
+.card{background:#fff;border-radius:14px;padding:22px;box-shadow:0 2px 10px rgba(0,0,0,.1);text-decoration:none;color:inherit;transition:.2s}
+.card:hover{transform:translateY(-4px);box-shadow:0 6px 16px rgba(42,157,143,.25)}
+.card h3{color:#1f7d72;margin-bottom:8px}
+.card p{font-size:.92em;margin:0;color:#5a7a77}
+.hero{background:#eaf6f4;border-radius:16px;padding:30px;text-align:center;margin-bottom:30px}
